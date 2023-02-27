@@ -1,0 +1,257 @@
+.flex-grid-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-grid-box {
+  margin-top: 3.33%;
+  height: 1400px;
+  width: 45%;
+}
+
+.flex-grid-two-top {
+  -webkit-transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  height: 55%;
+  margin-bottom: 10%;
+  position: relative;
+}
+
+.flex-grid-two-top:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  -webkit-box-shadow: 10px 5px 5px grey;
+          box-shadow: 10px 5px 5px grey;
+}
+
+.flex-grid-two-top > a > img {
+  width: 100%;
+  height: 100%;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  z-index: 0;
+}
+
+.flex-grid-two-top > .link {
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.flex-grid-two-top > .link:hover {
+  opacity: 1;
+}
+
+.flex-grid-two-bottom {
+  -webkit-transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  height: 40%;
+  position: relative;
+}
+
+.flex-grid-two-bottom:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  -webkit-box-shadow: 10px 5px 5px grey;
+          box-shadow: 10px 5px 5px grey;
+}
+
+.flex-grid-two-bottom > a > img {
+  width: 100%;
+  height: 100%;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  z-index: 0;
+}
+
+.flex-grid-two-bottom > .link {
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.flex-grid-two-bottom > .link:hover {
+  opacity: 1;
+}
+
+.flex-grid-three-top {
+  -webkit-transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  height: 40%;
+  margin-bottom: 10%;
+  position: relative;
+}
+
+.flex-grid-three-top:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  -webkit-box-shadow: 10px 5px 5px grey;
+          box-shadow: 10px 5px 5px grey;
+}
+
+.flex-grid-three-top > a > img {
+  width: 100%;
+  height: 100%;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  z-index: 0;
+}
+
+.flex-grid-three-top > .link {
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.flex-grid-three-top > .link:hover {
+  opacity: 1;
+}
+
+.flex-grid-three-bottom {
+  -webkit-transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  height: 55%;
+  position: relative;
+}
+
+.flex-grid-three-bottom:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  -webkit-box-shadow: 10px 5px 5px grey;
+          box-shadow: 10px 5px 5px grey;
+}
+
+.flex-grid-three-bottom > a > img {
+  width: 100%;
+  height: 100%;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  z-index: 0;
+}
+
+.flex-grid-three-bottom > .link {
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.flex-grid-three-bottom > .link:hover {
+  opacity: 1;
+}
+
+.link {
+  font-size: 40px;
+  -webkit-transition: color 0.5s, -webkit-text-decoration 0.5s, -webkit-transform 0.5s;
+  transition: color 0.5s, -webkit-text-decoration 0.5s, -webkit-transform 0.5s;
+  transition: color 0.5s, text-decoration 0.5s, transform 0.5s;
+  transition: color 0.5s, text-decoration 0.5s, transform 0.5s, -webkit-text-decoration 0.5s, -webkit-transform 0.5s;
+}
+
+.link:after {
+  content: ' \2192';
+  opacity: 0;
+}
+
+.link:hover {
+  -webkit-transform: translate(-10px, -10px);
+          transform: translate(-10px, -10px);
+  color: white;
+  text-decoration: underline;
+}
+
+.link:hover:after {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 420px) {
+  .flex-grid-box {
+    width: 96%;
+    height: 850px;
+  }
+  .flex-grid-two-top > .link {
+    opacity: 1;
+    color: white;
+    font-size: 30px;
+  }
+  .flex-grid-two-bottom > .link {
+    opacity: 1;
+    color: white;
+    font-size: 30px;
+  }
+  .flex-grid-three-top > .link {
+    opacity: 1;
+    color: white;
+    font-size: 30px;
+  }
+  .flex-grid-three-bottom > .link {
+    opacity: 1;
+    color: white;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 420px) {
+  .flex-grid-box {
+    margin-top: 10%;
+    width: 96%;
+  }
+  .flex-grid-two-top > .link {
+    opacity: 1;
+    color: white;
+    font-size: 50px;
+  }
+  .flex-grid-two-bottom > .link {
+    opacity: 1;
+    color: white;
+    font-size: 50px;
+  }
+  .flex-grid-three-top > .link {
+    opacity: 1;
+    color: white;
+    font-size: 50px;
+  }
+  .flex-grid-three-bottom > .link {
+    opacity: 1;
+    color: white;
+    font-size: 50px;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

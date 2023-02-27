@@ -1,0 +1,130 @@
+@mixin picHoverEffect{
+    transition: box-shadow 0.5s, transform 0.5s;
+
+    &:hover{
+        transform: translateY(-10px);
+        transform: scale(1.1);
+        box-shadow: 10px 5px 5px grey;    
+    }
+}
+
+@mixin modelPic{
+    width: 100%;
+    height: 100%;
+    cursor: zoom-in;
+}
+
+.city-flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.city-flex-box-one{
+    @include picHoverEffect();
+
+    // border: 1px solid black;
+    width: 45%;
+    height: 800px;
+    margin-top: 3.33%;
+}
+
+.city-flex-box-two{
+    // border: 1px solid black;
+    width: 45%;
+    height: 800px;
+    margin-top: 3.33%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.city-flex-box-two-top{
+    @include picHoverEffect();
+
+    // border: 1px solid black;
+    height: 48%;
+    margin-bottom: 4.4%;
+}
+
+.city-flex-box-two-bottom{
+    @include picHoverEffect();
+
+    // border: 1px solid black;
+    height: 48.45%;
+}
+
+.city-flex-box-three{
+    @include picHoverEffect();
+
+    // border: 1px solid black;
+    width: 45%;
+    height: 800px;
+    margin-top: 3.33%;
+}
+
+.city-flex-box-four{
+    // border: 1px solid black;
+    height: 800px;
+    width: 45%;
+    margin-top: 3.33%;
+}
+
+.city-flex-box-four-top{
+    @include picHoverEffect();
+
+    height: 45.55%;
+    // border: 1px solid black;
+    margin-bottom: 10.9%;
+}
+
+.city-flex-box-four-bottom{
+    @include picHoverEffect();
+
+    height: 45.9%;
+    // border: 1px solid black;
+}
+
+.city-box{
+    @include modelPic();
+}
+
+@media only screen and (max-width: 420px){
+    .city-flex-box-one{
+        width: 96%;
+        height: 600px;
+    }
+    .city-flex-box-two{
+        width: 96%;
+    }
+    .city-flex-box-three{
+        width: 96%;
+        height: 600px;
+    }
+    .city-flex-box-four{
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 420px){
+    .city-flex-box-one{
+        width: 96%;
+        height: 800px;
+    }
+    .city-flex-box-two{
+        width: 96%;
+    }
+    .city-flex-box-two-top{
+        width: 100%;
+    }
+    .city-flex-box-two-bottom{
+        width: 100%;
+    }
+    .city-flex-box-three{
+        width: 96%;
+        height: 800px;
+    }
+    .city-flex-box-four{
+        width: 96%;
+    }
+}

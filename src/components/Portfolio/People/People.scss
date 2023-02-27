@@ -1,0 +1,62 @@
+@mixin picHoverEffect{
+    transition: box-shadow 0.5s, transform 0.5s;
+
+    &:hover{
+        transform: translateY(-10px);
+        transform: scale(1.1);
+        box-shadow: 10px 5px 5px grey;    
+    }
+}
+
+@mixin modelPic{
+    width: 100%;
+    height: 100%;
+    cursor: zoom-in;
+}
+
+.people-flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.people-flex-vertical-box{
+    @include picHoverEffect();
+    margin-top: 3.33%;
+    // border: 1px solid black;
+    width: 25%;
+    height: 500px;
+}
+
+.people-flex-horizontal-box{
+    @include picHoverEffect();
+    margin-top: 3.33%;
+    // border: 1px solid black;
+    width: 40%;
+    height: 500px;
+}
+
+.people-box{
+    @include modelPic();
+}
+
+@media only screen and (max-width: 420px){
+    .people-flex-vertical-box{
+        width: 96%;
+        height: 500px;
+    }
+    .people-flex-horizontal-box{
+        width: 96%;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 420px){
+    .people-flex-vertical-box{
+        width: 45%;
+    }
+    .people-flex-horizontal-box{
+        width: 45%;
+        height: 300px;
+    }
+}

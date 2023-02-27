@@ -1,0 +1,54 @@
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 3.33%;
+}
+
+span {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.fas, .far, .fab {
+  color: grey;
+  position: relative;
+}
+
+.fas::after, .far::after, .fab::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: grey;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fas:hover::after, .far:hover::after, .fab:hover::after {
+  width: 100%;
+}
+
+@media only screen and (max-width: 420px) {
+  h2 {
+    font-size: 15px;
+  }
+  span {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 420px) {
+  h2 {
+    font-size: 20px;
+  }
+  span {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

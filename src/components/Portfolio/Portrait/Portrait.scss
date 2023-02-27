@@ -1,0 +1,49 @@
+@mixin picHoverEffect{
+    transition: box-shadow 0.5s, transform 0.5s;
+
+    &:hover{
+        transform: translateY(-10px);
+        transform: scale(1.1);
+        box-shadow: 10px 5px 5px grey;    
+    }
+}
+
+@mixin portraitBox{
+    margin-top: 3.33%;
+    width: 30%;
+    height: 500px;
+    // border: 1px solid black;
+}
+
+@mixin modelPic{
+    width: 100%;
+    height: 100%;
+    cursor: zoom-in;
+}
+
+.portrait-flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.portrait-flex-box{
+    @include picHoverEffect();
+    @include portraitBox();
+}
+
+.model-box{
+    @include modelPic();
+}
+
+@media only screen and (max-width: 420px){
+    .portrait-flex-box{
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 420px){
+    .portrait-flex-box{
+        width: 45%;
+    }
+}

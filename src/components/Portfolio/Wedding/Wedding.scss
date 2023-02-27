@@ -1,0 +1,48 @@
+@mixin picHoverEffect{
+    transition: box-shadow 0.5s, transform 0.5s;
+
+    &:hover{
+        transform: translateY(-10px);
+        transform: scale(1.1);
+        box-shadow: 10px 5px 5px grey;    
+    }
+}
+
+@mixin modelPic{
+    width: 100%;
+    height: 100%;
+    cursor: zoom-in;
+}
+
+.wedding-flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.wedding-flex-box{
+    @include picHoverEffect();
+
+    // border: 1px solid black;
+    margin-top: 3.33%;
+    width: 30%;
+    height: 630px;
+}
+
+.wedding-box{
+    @include modelPic();
+}
+
+@media only screen and (max-width: 420px){
+    .wedding-flex-box{
+        width: 96%;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 420px){
+    .wedding-flex-box{
+        width: 45%;
+    }
+}
+

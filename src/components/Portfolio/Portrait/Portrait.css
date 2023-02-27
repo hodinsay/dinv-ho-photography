@@ -1,0 +1,49 @@
+.portrait-flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.portrait-flex-box {
+  -webkit-transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  margin-top: 3.33%;
+  width: 30%;
+  height: 500px;
+}
+
+.portrait-flex-box:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 10px 5px 5px grey;
+          box-shadow: 10px 5px 5px grey;
+}
+
+.model-box {
+  width: 100%;
+  height: 100%;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+@media only screen and (max-width: 420px) {
+  .portrait-flex-box {
+    width: 96%;
+  }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 420px) {
+  .portrait-flex-box {
+    width: 45%;
+  }
+}
+/*# sourceMappingURL=Portrait.css.map */

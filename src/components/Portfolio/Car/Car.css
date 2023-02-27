@@ -1,0 +1,103 @@
+.car-flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.car-flex-vertical-box {
+  -webkit-transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  margin-top: 3.33%;
+  width: 25%;
+  height: 400px;
+}
+
+.car-flex-vertical-box:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 10px 5px 5px grey;
+          box-shadow: 10px 5px 5px grey;
+}
+
+.car-flex-horizontal-box {
+  -webkit-transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  margin-top: 3.33%;
+  width: 40%;
+  height: 400px;
+}
+
+.car-flex-horizontal-box:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 10px 5px 5px grey;
+          box-shadow: 10px 5px 5px grey;
+}
+
+.car-flex-rect-box {
+  -webkit-transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  margin-top: 3.33%;
+  width: 45%;
+  height: 400px;
+}
+
+.car-flex-rect-box:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 10px 5px 5px grey;
+          box-shadow: 10px 5px 5px grey;
+}
+
+.car-box {
+  width: 100%;
+  height: 100%;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+@media only screen and (max-width: 420px) {
+  .car-flex-vertical-box {
+    width: 96%;
+  }
+  .car-flex-horizontal-box {
+    width: 96%;
+    height: 300px;
+  }
+  .car-flex-rect-box {
+    width: 96%;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 420px) {
+  .car-flex-vertical-box {
+    width: 45%;
+  }
+  .car-flex-horizontal-box {
+    width: 45%;
+    height: 300px;
+  }
+  .car-flex-rect-box {
+    width: 45%;
+    height: 300px;
+  }
+}
+/*# sourceMappingURL=Car.css.map */

@@ -1,0 +1,123 @@
+.flex-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  0 3.33% 0 3.33%;
+}
+
+nav > nav{
+    display: flex;
+}
+
+ul > li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+ul > li > a{
+    color: grey;
+    position: relative;
+
+    &::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: grey;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+
+    &:hover::after{
+        width: 100%;
+   }
+}
+
+.fas{
+    color: grey;
+    display: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'Babylonica', 'sans-serif';
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.sublogo{
+    font-family: 'Babylonica', 'sans-serif';
+    font-size: 25px;
+    // border: 1px solid black;
+    color: grey;
+    text-align: end;
+    margin-top: -10px;
+    // padding-left: 3.33%;
+}
+
+.dropdown{
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    position: absolute;
+    display: flex;
+    // flex-direction: column;
+    opacity: 0;
+    right: -120%;
+    pointer-events: none;
+    transition: opacity 150ms ease-in-out;
+}
+
+.dropdown:hover > a + .dropdown-menu{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.dropdown-menu > li{
+    margin-top: 5%;
+}
+
+// mobile and tablet viewport 
+@media only screen and (max-width: 950px){
+    .logo{
+        font-size: 25px;
+    }
+    .sublogo{
+        font-size: 15px;
+    }
+    ul > li > a{
+        font-size: 13px;
+    }
+    .nav-menu{
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 2;
+        background-color: #fff;
+        height: 100vh;
+        width: 100px;
+        box-shadow: -0.5em 0 .5em #ababab;
+    }
+    .nav-menu > li{
+        display: block;
+        margin-top: 10%;
+    }
+    .dropdown-menu{
+        display: block;
+        margin-left: -25%;
+    }
+    .dropdown-menu > li{
+        margin-top: 5%;
+        width: 100%;
+    }
+    .dropdown-menu > li > a{
+        font-size: 13px;
+    }
+    .fas{
+        display: block;
+    }
+}

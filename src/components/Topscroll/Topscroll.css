@@ -1,0 +1,29 @@
+.topscroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-right: 3.5%;
+}
+
+.scroll-link {
+  font-size: 30px;
+  -webkit-transition: background-color 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: background-color 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: box-shadow 0.5s, background-color 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, background-color 0.5s, transform 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  padding: 5px 10px;
+  border: 1px solid grey;
+}
+
+.scroll-link:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  background-color: grey;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 5px 5px grey;
+          box-shadow: 10px 5px 5px grey;
+}
+/*# sourceMappingURL=Topscroll.css.map */
