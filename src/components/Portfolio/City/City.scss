@@ -89,7 +89,7 @@
     @include modelPic();
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 450px){
     .city-flex-box-one{
         width: 96%;
         height: 600px;
@@ -106,7 +106,7 @@
     }
 }
 
-@media only screen and (max-width: 950px) and (min-width: 420px){
+@media only screen and (max-width: 950px) and (min-width: 451px){
     .city-flex-box-one{
         width: 96%;
         height: 800px;

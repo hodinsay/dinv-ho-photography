@@ -17,32 +17,32 @@ const People = () => {
             <div className="people-flex-container">
                 <figure className="people-flex-vertical-box">
                     <a href={people1} data-lightbox='people-pic' data-title='First Picture'>
-                        <img src={people1} alt="people" className='people-box' loading='lazy'/>                        
+                        <img src={people1} className='people-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="people-flex-vertical-box">
                     <a href={people2} data-lightbox='people-pic' data-title='Second Picture'>
-                        <img src={people2} alt="people" className='people-box' loading='lazy'/>                        
+                        <img src={people2} className='people-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="people-flex-horizontal-box">
                     <a href={people3} data-lightbox='people-pic' data-title='Third Picture'>
-                        <img src={people3} alt="people" className='people-box' loading='lazy'/>                        
+                        <img src={people3} className='people-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="people-flex-horizontal-box">
                     <a href={people4} data-lightbox='people-pic' data-title='Fourth Picture'>
-                        <img src={people4} alt="people" className='people-box' loading='lazy'/>                        
+                        <img src={people4} className='people-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="people-flex-vertical-box">
                     <a href={people5} data-lightbox='people-pic' data-title='Fifth Picture'>
-                        <img src={people5} alt="people" className='people-box' loading='lazy'/>                        
+                        <img src={people5} className='people-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="people-flex-vertical-box">
                     <a href={people6} data-lightbox='people-pic' data-title='Sixth Picture'>
-                        <img src={people6} alt="people" className='people-box' loading='lazy'/>                        
+                        <img src={people6} className='people-box' loading='lazy'/>                        
                     </a>
                 </figure>
             </div>

@@ -36,13 +36,13 @@
     @include modelPic();
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 450px){
     .portrait-flex-box{
         width: 96%;
     }
 }
 
-@media only screen and (max-width: 950px) and (min-width: 420px){
+@media only screen and (max-width: 950px) and (min-width: 451px){
     .portrait-flex-box{
         width: 45%;
     }

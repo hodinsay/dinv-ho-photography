@@ -16,33 +16,33 @@ const Portrait = () => {
             </header>
             <div className="portrait-flex-container">
                 <figure className="portrait-flex-box">
-                    <a href={portrait7} data-lightbox='portrait-pic' data-title='model-one'>
-                        <img src={portrait7} alt="model-one" className='model-box' loading='lazy'/>                        
+                    <a href={portrait7} data-lightbox='portrait-pic' data-title='Model 1'>
+                        <img src={portrait7} className='model-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="portrait-flex-box">
-                    <a href={portrait6} data-lightbox='portrait-pic' data-title='model-two'>
-                        <img src={portrait6} alt="model-two" className='model-box' loading='lazy'/>                        
+                    <a href={portrait6} data-lightbox='portrait-pic' data-title='Model 2'>
+                        <img src={portrait6} className='model-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="portrait-flex-box">
-                    <a href={portrait1} data-lightbox='portrait-pic' data-title='model-three'>
-                        <img src={portrait1} alt="model-three" className='model-box' loading='lazy'/>                        
+                    <a href={portrait1} data-lightbox='portrait-pic' data-title='Model 3'>
+                        <img src={portrait1} className='model-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="portrait-flex-box">
                     <a href={portrait8} data-lightbox='portrait-pic' data-title='Nicole'>
-                        <img src={portrait8} alt="nicole" className='model-box' loading='lazy'/>                        
+                        <img src={portrait8} className='model-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="portrait-flex-box">
                     <a href={portrait2} data-lightbox='portrait-pic' data-title='Sean'>
-                        <img src={portrait2} alt="Sean" className='model-box' loading='lazy'/>                        
+                        <img src={portrait2} className='model-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="portrait-flex-box">
                     <a href={portrait3} data-lightbox='portrait-pic' data-title='Phi'>
-                        <img src={portrait3} alt="Phi" className='model-box' loading='lazy'/>                        
+                        <img src={portrait3} className='model-box' loading='lazy'/>                        
                     </a>
                 </figure>
             </div>

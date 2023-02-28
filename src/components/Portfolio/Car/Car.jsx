@@ -24,67 +24,67 @@ const Car = () => {
             <div className="car-flex-container">
                 <figure className="car-flex-horizontal-box">
                     <a href={car2} data-lightbox='car-pic' data-title='Dodge Charger SRT'>
-                        <img src={car2} alt="dodgecharger" className='car-box' loading='lazy'/>                        
+                        <img src={car2} className='car-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="car-flex-vertical-box">
                     <a href={car1} data-lightbox='car-pic' data-title='Dodge Charger SRT'>
-                        <img src={car1} alt="dodgecharger" className='car-box' loading='lazy'/>                        
+                        <img src={car1} className='car-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="car-flex-vertical-box">
                     <a href={car4} data-lightbox='car-pic' data-title='Dodge Charger SRT'>
-                        <img src={car4} alt="dodgecharger" className='car-box' loading='lazy'/>                        
+                        <img src={car4} className='car-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="car-flex-vertical-box">
                     <a href={car8} data-lightbox='car-pic' data-title='Dodge Charger SRT'>
-                        <img src={car8} alt="dodgecharger" className='car-box' loading='lazy'/>                        
+                        <img src={car8} className='car-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="car-flex-vertical-box">
                     <a href={car11} data-lightbox='car-pic' data-title='Dodge Charger SRT'>
-                        <img src={car11} alt="dodgecharger" className='car-box' loading='lazy'/>                        
+                        <img src={car11} className='car-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="car-flex-horizontal-box">
                     <a href={car10} data-lightbox='car-pic' data-title='Dodge Charger SRT'>
-                        <img src={car10} alt="dodgecharger" className='car-box' loading='lazy'/>                        
+                        <img src={car10} className='car-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="car-flex-horizontal-box">
                     <a href={car6} data-lightbox='car-pic' data-title='Dodge Charger SRT'>
-                        <img src={car6} alt="dodgecharger" className='car-box' loading='lazy'/>                        
+                        <img src={car6} className='car-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="car-flex-vertical-box">
                     <a href={car7} data-lightbox='car-pic' data-title='Dodge Charger SRT'>
-                        <img src={car7} alt="dodgecharger" className='car-box' loading='lazy'/>                        
+                        <img src={car7} className='car-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="car-flex-vertical-box">
                     <a href={car9} data-lightbox='car-pic' data-title='Dodge Charger SRT'>
-                        <img src={car9} alt="dodgecharger" className='car-box' loading='lazy'/>                        
+                        <img src={car9} className='car-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="car-flex-rect-box">
                     <a href={car3} data-lightbox='car-pic' data-title='Dodge Charger SRT'>
-                        <img src={car3} alt="dodgecharger" className='car-box' loading='lazy'/>                        
+                        <img src={car3} className='car-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="car-flex-rect-box">
                     <a href={car12} data-lightbox='car-pic' data-title='Dodge Charger SRT'>
-                        <img src={car12} alt="dodgecharger" className='car-box' loading='lazy'/>                        
+                        <img src={car12} className='car-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="car-flex-rect-box">
                     <a href={car5} data-lightbox='car-pic' data-title='Dodge Charger SRT'>
-                        <img src={car5} alt="dodgecharger" className='car-box' loading='lazy'/>                        
+                        <img src={car5} className='car-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className="car-flex-rect-box">
                     <a href={car13} data-lightbox='car-pic' data-title='Dodge Charger SRT'>
-                        <img src={car13} alt="dodgecharger" className='car-box' loading='lazy'/>                        
+                        <img src={car13} className='car-box' loading='lazy'/>                        
                     </a>
                 </figure>
             </div>

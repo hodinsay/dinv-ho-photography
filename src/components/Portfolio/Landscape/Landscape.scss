@@ -92,7 +92,7 @@
     @include modelPic();    
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 450px){
     .landscape-flex-box-one{
         width: 96%;
         height: 550px;
@@ -114,7 +114,7 @@
     }
 }
 
-@media only screen and (max-width: 950px) and (min-width: 420px){
+@media only screen and (max-width: 950px) and (min-width: 451px){
     .landscape-flex-box-one{
         width: 96%;
     }
