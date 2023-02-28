@@ -17,32 +17,32 @@ const Wedding = () => {
             <div className='wedding-flex-container'>
                 <figure className='wedding-flex-box'>
                     <a href={wedding1} data-lightbox='wedding-pic' data-title='Alice'>
-                        <img src={wedding1} alt="alice" className='wedding-box' loading='lazy'/>                        
+                        <img src={wedding1} className='wedding-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className='wedding-flex-box'>
                     <a href={wedding2} data-lightbox='wedding-pic' data-title='Phi and Alice'>
-                        <img src={wedding2} alt="phi+alice" className='wedding-box' loading='lazy'/>                        
+                        <img src={wedding2} className='wedding-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className='wedding-flex-box'>
                     <a href={wedding3} data-lightbox='wedding-pic' data-title='Phi and Alice'>
-                        <img src={wedding3} alt="phi+alice" className='wedding-box' loading='lazy'/>                        
+                        <img src={wedding3} className='wedding-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className='wedding-flex-box'>
                     <a href={wedding5} data-lightbox='wedding-pic' data-title='Phi and Alice'>
-                        <img src={wedding5} alt="phi+alice" className='wedding-box' loading='lazy'/>                        
+                        <img src={wedding5} className='wedding-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className='wedding-flex-box'>
                     <a href={wedding6} data-lightbox='wedding-pic' data-title='Phi and Alice'>
-                        <img src={wedding6} alt="phi+alice" className='wedding-box' loading='lazy'/>                        
+                        <img src={wedding6} className='wedding-box' loading='lazy'/>                        
                     </a>
                 </figure>
                 <figure className='wedding-flex-box'>
                     <a href={wedding4} data-lightbox='wedding-pic' data-title='Phi and Alice'>
-                        <img src={wedding4} alt="phi+alice" className='wedding-box' loading='lazy'/>                        
+                        <img src={wedding4} className='wedding-box' loading='lazy'/>                        
                     </a>
                 </figure>
             </div>

@@ -18,7 +18,7 @@ const About = () => {
                 </div>
                 <div className='about-profile'>
                     <a href={dinv} data-lightbox='models' data-title='Din Ho'>
-                        <img src={dinv} alt="dinv" className='profile-pic' loading='lazy'/>                        
+                        <img src={dinv} className='profile-pic' loading='lazy'/>                        
                     </a>
                 </div>
             </div>

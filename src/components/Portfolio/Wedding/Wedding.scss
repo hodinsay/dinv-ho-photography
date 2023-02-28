@@ -33,14 +33,14 @@
     @include modelPic();
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 450px){
     .wedding-flex-box{
         width: 96%;
         height: 500px;
     }
 }
 
-@media only screen and (max-width: 950px) and (min-width: 420px){
+@media only screen and (max-width: 950px) and (min-width: 451px){
     .wedding-flex-box{
         width: 45%;
     }

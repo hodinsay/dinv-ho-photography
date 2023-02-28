@@ -48,7 +48,7 @@
     @include modelPic();
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 450px){
     .car-flex-vertical-box{
         width: 96%;
     }
@@ -62,7 +62,7 @@
     }
 }
 
-@media only screen and (max-width: 950px) and (min-width: 420px){
+@media only screen and (max-width: 950px) and (min-width: 451px){
     .car-flex-vertical-box{
         width: 45%;
     }
