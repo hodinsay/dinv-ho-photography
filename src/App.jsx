@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 import City from './components/Portfolio/City/City';
 import Wedding from "./components/Portfolio/Wedding/Wedding";
 import Landscape from './components/Portfolio/Landscape/Landscape';
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path='/home' element={<Home />}/>
         <Route path='/about' element={<About />}/>
+        <Route path='/contact' element={<Contact />}/>
         <Route path='/city' element={<City />}/>
         <Route path='/wedding' element={<Wedding />}/>
         <Route path='/portrait' element={<Portrait />}/>
